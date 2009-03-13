@@ -3,7 +3,7 @@ Summary:	A Python module for the GnuPG
 Summary(pl.UTF-8):	Moduł Pythona do GnuPG
 Name:		python-%{module}
 Version:	0.3.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://downloads.sourceforge.net/py-gnupg/GnuPGInterface-0.3.2.tar.gz
