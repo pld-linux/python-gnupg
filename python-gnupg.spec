@@ -10,6 +10,8 @@ Source0:	http://downloads.sourceforge.net/py-gnupg/GnuPGInterface-0.3.2.tar.gz
 # Source0-md5:	d4627d83446f96bd8c22f8d15db3f7c2
 URL:		http://py-gnupg.sourceforge.net/
 %pyrequires_eq	python-modules
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	gnupg
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
